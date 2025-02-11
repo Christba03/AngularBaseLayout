@@ -29,7 +29,6 @@ angular-ecommerce/
 │   │   │   ├── shared.module.ts  # Shared module for reusability
 │   │   ├── features/             # Feature modules for different sections of the app
 │   │   │   ├── product/          # Product-related components and services
-│   │   │   │   ├── pages/        # Product list and detail views
 │   │   │   │   ├── components/   # Product-specific components (e.g., ProductCard)
 │   │   │   │   ├── services/     # Product-related services
 │   │   │   │   ├── product.module.ts  # Module definition
@@ -38,6 +37,7 @@ angular-ecommerce/
 │   │   │   ├── checkout/         # Checkout and payment module
 │   │   │   ├── order/            # Order history and tracking module
 │   │   │   ├── authentication/   # Login, registration, and authentication services
+│   │   ├── pages/                # Pages Module Directory
 │   │   ├── app-routing.module.ts # Main application routing
 │   │   ├── app.module.ts         # Main application module
 │   ├── assets/                   # Static assets (images, JSON files, etc.)
